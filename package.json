@@ -79,10 +79,10 @@
   "start": "react-scripts start",
   
     
-  "build": "set BUILD_PATH=../api/public && react-scripts build",
+  
   
     
-  "build-deploy": "react-scripts build",
+  "build": "react-scripts build",
   
     
   "test": "react-scripts test",
