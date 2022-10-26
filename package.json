@@ -88,13 +88,7 @@
   "test": "react-scripts test",
   
     
-  "eject": "react-scripts eject",
-  
-    
-  "client-build": "BUILD_PATH=../api/build react-scripts build",
-  
-    
-  "deploy": "gh-pages -d build"
+  "eject": "react-scripts eject"
   
   },
   
