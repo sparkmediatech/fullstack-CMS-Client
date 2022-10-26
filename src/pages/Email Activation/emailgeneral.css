@@ -1,0 +1,166 @@
+.wrapper{
+  overflow: hidden;
+background-color: #5D6D7E;
+}
+
+
+/* ActivationLinksent section */
+
+.md-div {
+  background-color: #ff7433;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.emailIcon2 {
+  margin-top: 15px;
+  font-size: 130px;
+  color: #f6996e;
+  outline-color: black;
+}
+
+
+.verifyText2 {
+  color: #99a3a4;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Satisfy";
+  font-style: italic;
+}
+.check {
+  margin-top: 15px;
+  font-size: 80px;
+  color: #3ec1f1;
+  outline-color: black;
+}
+.emailText{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* ResendVerifyLink section */
+.custom-email-verification-container {
+  height: 100vh;
+  overflow: hidden;
+}
+.resend-Email-div {
+  border-radius: 10px;
+  display: flex;
+  height: 30%;
+  padding: 10px 15px 20px 15px;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 400px;
+  box-shadow: 8px 8px 8px -6px black;
+}
+
+.custom-resend-email-BTN{
+  width: 70%;
+}
+
+.custom-resend-email-BTN-div{
+  width: 100%;
+}
+
+.custom-resend-verified-email-div{
+  height: 35vh !important;
+  width: 40% !important;
+  padding-bottom: 20px !important;
+}
+
+
+
+
+
+
+@media(max-width: 1200px) {
+  .custom-email-verification-container{
+    align-items: center !important;
+  }
+  .custom-resend-verified-email-div{
+    height: 40vh !important; 
+   
+}
+
+}
+
+
+
+
+@media(max-width: 992px){
+  .custom-resend-verified-email-div {
+      width: 55% !important;
+      height: 35vh !important;
+  }
+}
+
+
+
+
+
+@media(max-width: 768px){
+  .custom-email-veri-div{
+    width: 90% !important;
+  }
+
+  .custom-resend-verified-email-div {
+      height: 40vh !important;
+      padding: 0 10px !important;
+      width: 70% !important;
+  }
+}
+
+
+
+
+@media(max-width: 576px) {
+  .custom-mainContainer-email-verify-div{
+    max-width: 1700px !important;
+    padding: 0 10px !important;
+  
+  }
+  
+  .custom-email-veri-text {
+      font-size: 12px !important;
+    }
+
+  .custom-email-icon {
+      font-size: 110px !important;
+    }
+
+  .custom-resend-verified-email-div {
+      width: 95% !important;
+    }
+  
+}
+
+
+
+@media(max-width: 399px) {
+  .custom-email-verification-container{
+    padding: 0 10px; 
+  }
+
+.custom-resend-email-title-text{
+  font-size: 15px !important;
+}
+
+.custom-resend-email-BTN{
+  width: 30%;
+ 
+}
+
+.custom-email-veri-div {
+      width: 100% !important;
+    }
+  .custom-veri-email-title-text{
+    font-size: 15px !important;
+  }
+  .custom-email-veri-text{
+    font-size: 11px !important;
+  }
+.custom-email-icon{
+  font-size: 100px !important;
+}
+}

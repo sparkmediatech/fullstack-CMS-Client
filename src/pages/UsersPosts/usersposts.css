@@ -1,0 +1,120 @@
+.usersPosts-custom-main-div{
+    height: auto;
+    overflow: hidden;
+    max-width: 1500px;
+    background-color: #FBFCFC;
+    padding-bottom: 15px;
+    
+}
+.posts-div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.single-post-div{
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.post-title-div{
+    width: 25%;
+}
+.post-title-custom-text{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.post-title-custom-text:hover{
+    color: #FE6620;
+}
+.post-item-custom-div{
+    width: 70%;
+    justify-content: right;
+}
+.delete-post{
+   cursor: pointer;
+}
+.check-box{
+    cursor: pointer;
+}
+.delete-BTN-div{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.delet-selected-custom{
+    padding: 13px 40px 13px 40px;
+    transition: 0.4s ease-in-out;
+}
+.delet-selected-custom:hover{
+    background-color: #ed4b00;
+}
+.clear-selected-btn-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+   
+}
+.clear-btn{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.clear-btn:hover{
+    color: #e84900;
+}
+.delet-selected-custom{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.custom-page-navigation-icon{
+    cursor: pointer;
+    color: #FF661F;
+    font-size: 30px;
+}
+.unclickMouse{
+    cursor:not-allowed;
+}
+.custom-userPosts-delete-BTN-div{
+    width: 45%;
+    display: flex;
+}
+.custom-userPosts-clear-BTN-div{
+    width: 45%;
+    display: flex;
+    justify-content: right;
+}
+/*Tablet */
+@media (max-width: 768px){
+    .usersPosts-custom-main-div{
+        margin-top: 60px;
+        box-shadow: none;
+    }
+    .custom-managePosts-title{
+        font-size: 17px !important;
+    }
+    .post-title-custom-text{
+        font-size: 12px !important;
+    }
+    .post-title-div{
+        width: 45%;
+    }
+    .post-item-custom-div{
+        width: 30%;
+    }
+}
+
+
+/*  smaller mobile  */
+@media(max-width: 500px) {
+    .usersPosts-custom-main-div{
+    margin: 0 !important;
+    padding: 10px !important;
+    margin-top: 40px !important;
+    
+}
+}

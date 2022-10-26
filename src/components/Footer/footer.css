@@ -1,0 +1,188 @@
+.footer-custom-main-div{
+    background-color: black;
+    width: 100%;  
+}
+
+.custom-footer-main-wrapper{
+    max-width: 1700px;
+}
+.footer-section1{
+    width: 23%;
+   
+}
+.site-about-text{
+    line-height: 1.5em;
+}
+.custom-about-site-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
+
+/* social media Icon for footer */
+
+.socialMedia-footer-icon-div{
+    width: 100%;
+}
+.social-media-footer-icon{
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+}
+.social-media-footer-icon:hover{
+    transform: scale(1.2);
+    background-color: #FF661F;
+}
+.recent-post-main-div{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 100%;
+
+}
+
+.recent-post-main-div .recent-post-postTitle:hover{
+    color: #FF661F;
+}
+
+.recent-post-img-div{
+    width: 40%;
+}
+.recent-post-img{
+    width: 80%;
+}
+.recent-post-postTitle-div{
+    width: 40%;
+}
+.recent-post-postTitle{
+    cursor: pointer;
+   transition: 0.4s ease-in-out;
+}
+.site-link-text{
+    line-height: 1.5em;
+    transition: 0.4s ease-in-out;
+}
+
+.site-link-text-div{
+    width: 25%;
+}
+.site-link-text:hover{
+    color: #FF661F;
+}
+.subscribe-email-text-div{
+    width: 100%;
+}
+.subscribe-email-input-div{
+    width: 100%;
+}
+.subscribe-emai-input{
+    width: 100%;
+    height: 70px;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+}
+.subscibe-custom-BTN{
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: #FF661F;
+    width: 100%;
+    color: white;
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+}
+.subscibe-custom-BTN:hover{
+    background-color: #e6500a;
+}
+.credit-section-div{
+    overflow: hidden;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-line{
+    color: #F4F6F7;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.custom-download-app-text{
+    color: #FF661F !important;
+    cursor: pointer;
+}
+
+.custom-download-app-text:hover{
+    color: #F4F6F7 !important;
+}
+
+.custom-a-link{
+    text-decoration: none;
+}
+
+
+/*tablet mode */
+@media (max-width: 993px){
+    .custom-footer-recent-post-section{
+        width: 30%;
+    }
+    .custom-footer-link-section{
+        width: 17%;
+    }
+    .custom-footer-title-text{
+        font-size: 17px !important;
+    }
+    .site-about-text {
+        font-size: 12px !important;
+    }
+    .social-media-footer-icon {
+        font-size: 20px;       
+        }
+    .recent-post-postTitle{
+        font-size: 12px !important;
+   
+    }
+    .recent-post-img{
+        width: 90%;
+    }
+    .site-link-text {
+
+        font-size: 13px !important;
+    }
+    .subscribe-emai-input {
+        height: 40px;
+    }
+   
+    .footer-section1{
+        margin-top: 0px !important;
+       
+    }
+    .subscibe-custom-BTN {
+        padding: 10px 0 10px 0;
+        font-size: 15px;
+    }
+    .custom-footer-main-wrapper{
+        padding-top: 20px;
+    }
+}
+
+/*phone mode */
+@media (max-width: 576px){
+    .custom-footer-main-wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 20px !important;
+    }
+    .footer-section1{
+        width: 95%;
+    }
+    .custom-footer-title-text{
+        margin-top: 15px !important;
+    }
+
+    .custom-copy-right-footer-div{
+        flex-direction: column !important;
+    }
+}

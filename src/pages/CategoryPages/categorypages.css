@@ -1,0 +1,161 @@
+.page1-main-custom-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.homePage-post-div{
+   width: 100%;
+}
+.page-title-custom-div{
+    width: 100%;
+}
+.singlePost-div{
+    width: 32%;
+}
+.page-title-text {
+    font-family: "Lato",
+    sans-serif;
+    font-size: 30px;
+    color: black;
+}
+/* home page2 custom section */
+.page2-custom-main-div{
+    overflow: hidden;
+    height: 400px;
+    padding-bottom: 100px;
+}
+.page2-homePage-custom-div{
+    height: 100%;
+}
+.page2-custom-image{
+    height: 90%;
+}
+.page2-singlePost-custom-div{
+    width: 48%;
+    height: 90%;
+}
+
+/* page3 custom section */
+
+.page3-main-custom-div{
+    overflow: hidden;
+    height: 600px;
+    width: 100%;  
+}
+
+.homePage3-post-div {
+    height: 90%;
+   
+   
+}
+.page3-custom-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.singlePost-page3-div{
+    width: 32%;
+    height: 90%;
+    
+}
+/* text section  */
+.page3-post-line-div{
+    width: 0;
+    height: 1px;
+    background-color:#FF661F;
+}
+.animated-page3-post-line-div{
+    width: var(--postTitleLine);
+}
+
+@media (max-width: 1200px){
+.homePage3-post-div {
+        width: 48%;
+        height: 90%;
+    }
+
+    .singlePost-page3-div {
+        width: 48%;
+        height: 80%;
+    }
+
+    .page3-main-custom-div {
+        height: 400px;
+    }
+
+    .page-title-text {
+        font-size: 23px;
+    }
+}
+
+
+@media (max-width: 992px){
+.homePage3-post-div {
+    width: 48%;
+    height: 90%;
+    }
+.singlePost-page3-div{
+    width: 48%;
+    height: 80%;
+    }
+
+.page3-main-custom-div {
+    height: 400px;
+}
+.page-title-text{
+    font-size: 23px;
+}
+
+}
+
+
+
+/* tablet mode  */
+@media (max-width: 768px){
+    .singlePost-div{
+    width: 48%;
+    height: 80%;
+    }
+    .singlePost-page3-div{
+        width: 48%;
+        height: 80%;
+    }
+    .page-title-text{
+        font-size: 20px;
+    }
+    .page3-main-custom-div {
+        height: 450px;       
+    }
+    .homePage3-post-div{
+        width: 48%;
+        height: 80%;
+    }
+    .page2-homePage-custom-div {
+        height: 80%;
+       
+    }
+    .page2-custom-image {
+        height: 100%;
+    }
+    .page2-custom-main-div {
+        padding-bottom: 0px;
+    }
+}
+
+/*mobile screen mode */
+@media (max-width: 576px) {
+    .post {
+        width: 100%;
+    }
+    .singlePost-page3-div{
+        width: 100%;
+        
+    }
+    .homePage3-post-div {
+        height: 90%;
+        
+     }
+     .page2-singlePost-custom-div{
+        width: 100%;
+     }
+}

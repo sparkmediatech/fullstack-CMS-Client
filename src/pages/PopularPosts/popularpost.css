@@ -1,0 +1,44 @@
+.popular-post-div{
+    display: flex;
+   justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    overflow: auto;
+    width: 100%;
+}
+.popular-posts{
+    width: 32%;
+}
+.popular-posts .postTitle:hover{
+    transition: 0.5s ease-in-out;
+    color: #FF661F;
+}
+.popular-post-title-line{
+    width: 0;
+    height: 1px;
+    background-color: red;
+}
+.animated-popular-post-title-line{
+    width: var(--postTitleLine);
+}
+
+/* tablet mode*/
+@media (max-width: 768px){
+    .popular-posts {
+        width: 47%;
+    }
+    .postTitle {
+        font-size: 20px;
+    }
+}
+
+/* phone mode*/
+@media (max-width: 576px) {
+    .popular-posts {
+        width: 100%;
+    }
+
+    .postTitle {
+        font-size: 20px;
+    }
+}

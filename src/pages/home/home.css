@@ -1,0 +1,51 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  max-width: 1700px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.loading-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.latest-text{
+  font-family: "Lato",
+  sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+@media (max-width: 1200px){
+  .custom-homePage-latest-text{
+    margin-top: 80px !important;
+  }
+}
+
+
+
+
+@media (max-width: 992px){
+  .latest-text{
+    font-size: 23px;
+  }
+}
+
+
+
+/*Tablet */
+@media (max-width: 768px){
+  .custom-homePage-component{
+    margin-top: 0 !important;
+  }
+  .latest-text{
+    font-size: 20px;
+  }
+  .home{
+    overflow: hidden !important;
+   
+  }
+  
+}
